@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T07:19:41.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="txQDBUZmiioCDLqINfxO" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-10T07:26:44.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Uc1fG1rIuP18yzWxwORt" version="22.0.4" type="github">
   <diagram name="第 1 页" id="PRickzJFF1ZX3uBD7xGV">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,14 +39,14 @@
             <mxPoint x="340" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m_86nZOiMD_E4NC-TJkv-9" value="xywh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m_86nZOiMD_E4NC-TJkv-9" value="xyxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="540" width="80" height="140" as="geometry" />
         </mxCell>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-10" value="box_conf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="540" width="60" height="140" as="geometry" />
+          <mxGeometry x="320" y="540" width="60" height="140" as="geometry" />
         </mxCell>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-11" value="class_conf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="540" width="270" height="140" as="geometry" />
+          <mxGeometry x="380" y="540" width="270" height="140" as="geometry" />
         </mxCell>
         <UserObject label="4" placeholders="1" name="Variable" id="m_86nZOiMD_E4NC-TJkv-12">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
@@ -55,21 +55,21 @@
         </UserObject>
         <UserObject label="1" placeholders="1" name="Variable" id="m_86nZOiMD_E4NC-TJkv-13">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-            <mxGeometry x="260" y="510" width="50" height="20" as="geometry" />
+            <mxGeometry x="330" y="510" width="50" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="80" placeholders="1" name="Variable" id="m_86nZOiMD_E4NC-TJkv-14">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-            <mxGeometry x="414" y="510" width="50" height="20" as="geometry" />
+            <mxGeometry x="484" y="510" width="50" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="100" placeholders="1" name="Variable" id="m_86nZOiMD_E4NC-TJkv-15">
+        <UserObject label="10000" placeholders="1" name="Variable" id="m_86nZOiMD_E4NC-TJkv-15">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-            <mxGeometry x="110" y="600" width="50" height="20" as="geometry" />
+            <mxGeometry x="100" y="600" width="50" height="20" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-16" value="box_conf &amp;gt; thresh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="398" width="120" height="30" as="geometry" />
+          <mxGeometry x="405" y="750" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-18" value="split and decode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="742" width="110" height="30" as="geometry" />
+          <mxGeometry x="400" y="390" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-19" value="xyxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="850" width="80" height="140" as="geometry" />
@@ -148,6 +148,12 @@
         </mxCell>
         <mxCell id="m_86nZOiMD_E4NC-TJkv-38" value="Output" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="1630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m_86nZOiMD_E4NC-TJkv-40" value="tip:由于nms需要计算box的面积area，&lt;br&gt;而fp16的上界为6550，所以需要将box的&lt;br&gt;xy进行缩放0.1倍后进行处理，所以nms处理&lt;br&gt;返回的只是indices，而不是box" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1390" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m_86nZOiMD_E4NC-TJkv-41" value="tip:yolo模型可以使用box_conf进行预先过滤" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="750" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
